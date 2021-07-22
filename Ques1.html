@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ASSIGNMENT JS 1  </title>
+            <script src='Q1.js'> </script>
+            <link rel="stylesheet" href="styles.css">
+           
+    </head>
+    <body>
+        <fieldset>
+            <legend><strong>TEXT REPLACE</strong>  </legend>
+            <form name="myForm" autocomplete="off" onsubmit='return replaceWord();'>
+                <table >
+                    <tr>
+                        <th class="thr"><label for='i_text'>Enter Text:&nbsp;&nbsp;</label> </th>
+                        <td><input type='text' id='i_text' name='text' placeholder="Text here "/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="thr"><label for='i_word'>Enter Word to replace: &nbsp;&nbsp;</label> </th>
+                        <td><input type='text' id='i_word' name='word' placeholder="Word here"/>
+                        </td>
+                    </tr>
+                   
+                    <tr>
+                        <th class="thr"><label for='i_replace'> Enter word to replace with: &nbsp;&nbsp;</label> </th>
+                        <td><input type='text' id='i_replace' name='replace' placeholder="Word to replace with here"/>
+                        </td>
+                    </tr>
+                    
+                    <tr><br/><br/>
+                        <th ><input class="one" type='reset' value='RESET' id='i_reset' name='reset'/>
+                        </th>
+                        <td ><input class="two" type='submit' value='REPLACE' id='i_submit' name='submit'/>
+                        </td>
+                        
+                    </tr>
+
+                </table>
+            </form>
+        </fieldset>
+    </body>

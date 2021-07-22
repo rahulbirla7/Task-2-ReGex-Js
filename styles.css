@@ -1,0 +1,29 @@
+table{
+    width:100%;
+    
+    }
+    legend{
+    color: black;
+    font-size:30px;
+    font-weight: bold;
+    
+    }
+    table td{
+    padding:6px;
+    font-size:18px;
+    }
+    table th{
+        font-size: 20px;
+    }
+    .one{
+        font-size: 20px;
+        font-weight:normal;
+        width:100px
+        
+    }
+    .two{
+        font-size: 20px;
+        font-weight:normal;
+        width:120px
+        
+    }
